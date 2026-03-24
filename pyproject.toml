@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"  
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["discord_ping*"]
+
+[project]
+name = "discord-ping"
+version = "1.0.0"
+description = "Measure Discord REST API and Gateway latency from the terminal"
+requires-python = ">=3.9"
+dependencies = ["aiohttp>=3.9"]
+
+[project.scripts]
+discord-ping = "discord_ping.main:main"
+
