@@ -111,6 +111,4 @@ To get a token:
 
 ---
 
-## License
-
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/drlove2002/discord-ping/blob/main/LICENSE)
